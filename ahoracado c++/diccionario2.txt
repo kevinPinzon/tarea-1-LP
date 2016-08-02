@@ -1,0 +1,10 @@
+conejo  
+aguila  
+perico  
+tiburon 
+gato    
+perro   
+culebra 
+lobo    
+zorro   
+venado  

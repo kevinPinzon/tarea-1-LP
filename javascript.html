@@ -1,0 +1,26 @@
+<html> 
+
+	<head> 
+		<title>Javascript</title> 
+
+	</head> 
+
+	<body> 
+		<h1>SUMA DE DOS NUMEROS</h1>
+		<form name="MyForm"> 
+			<input name="numero1" size="3"> 
+			<input name="numero2" size="3"> 
+			<input name="resultado" size="5"> 
+
+			<input type="button" value="Sumar" onclick="sumar()"> 
+		</form> 
+
+	</body> 
+	<script> 
+		function sumar() { 
+			var A = parseInt(document.MyForm.numero1.value); 
+			var B = parseInt(document.MyForm.numero2.value); 
+			document.MyForm.resultado.value=A+B; 
+		} 
+	</script> 
+</html>
